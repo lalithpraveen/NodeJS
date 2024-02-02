@@ -1,0 +1,11 @@
+{
+  "name": "lalithcalc",
+  "version": "1.0.0",
+  "description": "This is a calculator module development during node course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lalith Praveen",
+  "license": "ISC"
+}
