@@ -1,10 +1,13 @@
 const express = require('express')
+const morgan = require('morgan')
 
 const app = express()
 
 // get, post, put , delete
 
 app.use(express.json())
+
+app.use(morgan())
 
 let books = [
     { id: 1, title: "The Secret" },
@@ -71,6 +74,6 @@ app.delete('/books/:id', (req,res) => {
     res.send(books)
 })
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8000
 
 app.listen(port, ()=> console.log(`Port is running on ${port}`))
