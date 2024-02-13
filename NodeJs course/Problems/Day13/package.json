@@ -1,5 +1,5 @@
 {
-  "name": "day10",
+  "name": "day13",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "express-rate-limit": "^7.1.5",
-    "jsonwebtoken": "^9.0.2",
-    "nodemon": "^3.0.3"
+    "ws": "^8.16.0"
   }
 }
